@@ -20,3 +20,8 @@ Route::get('/test/', function()
 {
 	return View::make('test');
 });
+
+Route::get('/dump/', function()
+{
+	dd('This is just an output test');
+});
