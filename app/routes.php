@@ -23,5 +23,5 @@ Route::get('/test/', function()
 
 Route::get('/dump/', function()
 {
-	dd(hash::make('1234'));
+	dd(Hash::make('1234'));
 });
